@@ -45,6 +45,9 @@ btnArray.onclick=function(){
     rect.remove();
     text.remove();
     //重建
+    
+setXScale();
+setYScale();
     createRect();
 createText();
 }
